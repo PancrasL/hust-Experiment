@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1528775145">
+  <File Type="PA-TCL" Name="auto_caculation.tcl"/>
+  <File Type="PWROPT-DCP" Name="auto_caculation_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="auto_caculation_postplace_pwropt.dcp"/>
+  <File Type="REPORTS-TCL" Name="auto_caculation_reports.tcl"/>
+  <File Type="BG-DRC" Name="auto_caculation.drc"/>
+  <File Type="OPT-HWDEF" Name="auto_caculation.hwdef"/>
+  <File Type="OPT-DCP" Name="auto_caculation_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="auto_caculation_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="auto_caculation_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="auto_caculation_physopt.dcp"/>
+  <File Type="BG-BIT" Name="auto_caculation.bit"/>
+  <File Type="ROUTE-ERROR-DCP" Name="auto_caculation_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="auto_caculation_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="auto_caculation_routed_bb.dcp"/>
+  <File Type="BITSTR-MSK" Name="auto_caculation.msk"/>
+  <File Type="BG-BGN" Name="auto_caculation.bgn"/>
+  <File Type="BITSTR-RBT" Name="auto_caculation.rbt"/>
+  <File Type="BG-BIN" Name="auto_caculation.bin"/>
+  <File Type="ROUTE-TIMING-PB" Name="auto_caculation_timing_summary_routed.pb"/>
+  <File Type="RDI-RDI" Name="auto_caculation.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="auto_caculation_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="auto_caculation_postroute_physopt_bb.dcp"/>
+  <File Type="BITSTR-NKY" Name="auto_caculation.nky"/>
+  <File Type="BITSTR-BMM" Name="auto_caculation_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="auto_caculation.mmi"/>
+  <File Type="BITSTR-LTX" Name="auto_caculation.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="auto_caculation.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/n_adder.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/n_compare.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/n_mux.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/register.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/rom4xn.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shiyan4_1.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/shiyan4_2.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/auto_caculation.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/auto_caculate_test.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="auto_caculation"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/FileRecv/Nexys4_Master.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../../../../Administrator/Documents/Tencent Files/1926044048/FileRecv/Nexys4_Master.xdc"/>
+        <Attr Name="ImportTime" Val="1528159650"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2015"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

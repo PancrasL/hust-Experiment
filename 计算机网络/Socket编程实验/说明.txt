@@ -1,0 +1,15 @@
+开发平台：
+操作系统：Microsoft Windows 10 家庭中文版 (64位)
+处理器：Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz(1800 MHz)
+内存：8.00 GB (2400 MHz)
+显卡：NVIDIA GeForce MX150
+开发平台：Microsoft Visual Studio Community 2017 版本15.8.8，Qt 5.8.0
+编程语言：C++
+第三方组件：Qt VS Tools
+
+1.直接解压源码中的工程文件，使用Visual Studio 2017打开工程
+2.将第三方组件文件夹下的qt-vsaddin-msvc2015-2.2.2拖入到VisualStudio中进行加载
+3.重新启动工程，选中工具栏中的qt vs tools下拉菜单，选择qt options选项
+4.在打开的qt options窗口中选择qt 5.8.0版本
+5.将qt5.8.0根目录下的lib，indlude，bin文件添加到计算机的环境变量中
+6.F5编译运行工程文件

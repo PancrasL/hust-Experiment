@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../shiyan4.srcs/sources_1/new/auto_caculation.v" \
+"../../../../shiyan4.srcs/sources_1/new/n_adder.v" \
+"../../../../shiyan4.srcs/sources_1/new/n_compare.v" \
+"../../../../shiyan4.srcs/sources_1/new/n_mux.v" \
+"../../../../shiyan4.srcs/sources_1/new/register.v" \
+"../../../../shiyan4.srcs/sources_1/new/rom4xn.v" \
+"../../../../shiyan4.srcs/sources_1/new/shiyan4_1.v" \
+"../../../../shiyan4.srcs/sources_1/new/shiyan4_2.v" \
+"../../../../shiyan4.srcs/sources_1/new/auto_caculate_test.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

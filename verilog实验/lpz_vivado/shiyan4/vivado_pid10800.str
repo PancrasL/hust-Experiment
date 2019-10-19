@@ -1,0 +1,1261 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 10800
+License: Customer
+
+Current time: 	Tue Jun 12 08:11:58 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 46 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivado/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/vivado/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	10334
+User home directory: C:/Users/10334
+User working directory: E:/verilog/lpz_vivado/shiyan4
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2018.1
+RDI_DATADIR: D:/vivado/Vivado/2018.1/data
+RDI_BINDIR: D:/vivado/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/10334/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/10334/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/10334/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	E:/verilog/lpz_vivado/shiyan4/vivado.log
+Vivado journal file location: 	E:/verilog/lpz_vivado/shiyan4/vivado.jou
+Engine tmp dir: 	E:/verilog/lpz_vivado/shiyan4/.Xil/Vivado-10800-DESKTOP-4FFCO4E
+
+GUI allocated memory:	196 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 562 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 48 MB (+47608kb) [00:00:05]
+// [Engine Memory]: 512 MB (+385849kb) [00:00:05]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: E:\verilog\lpz_vivado\shiyan4\shiyan4.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project E:/verilog/lpz_vivado/shiyan4/shiyan4.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project E:/verilog/lpz_vivado/shiyan4/shiyan4.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 60 MB (+10256kb) [00:00:08]
+// [Engine Memory]: 585 MB (+48887kb) [00:00:08]
+// [GUI Memory]: 69 MB (+6077kb) [00:00:09]
+// [Engine Memory]: 620 MB (+6260kb) [00:00:09]
+// [GUI Memory]: 79 MB (+6897kb) [00:00:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 628 MB. GUI used memory: 39 MB. Current time: 6/12/18 8:12:01 AM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:05 . Memory (MB): peak = 883.117 ; gain = 137.473 
+// Project name: shiyan4; location: E:/verilog/lpz_vivado/shiyan4; part: xc7a100tcsg324-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 91 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, M1 (shiyan4_1.v)]", 1); // B (D, ch)
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM (shiyan4_2.v)]", 11, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, FSM (shiyan4_2.v)]", 11, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("shiyan4_2.v", 203, 158, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("shiyan4_2.v", 203, 158, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("shiyan4_2.v", 100, 145); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 127, 145); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 55, 144); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 51, 142); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 649 MB. GUI used memory: 42 MB. Current time: 6/12/18 8:14:00 AM CST
+selectCodeEditor("shiyan4_2.v", 81, 146); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("shiyan4_2.v", 222, 141, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("shiyan4_2.v", 222, 141, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("shiyan4_2.v", 99, 136); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 90, 165); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 87, 160); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("shiyan4_2.v", 111, 141); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 84 MB (+777kb) [00:02:55]
+// Elapsed time: 24 seconds
+selectCodeEditor("shiyan4_2.v", 81, 204); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 81, 208); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 86, 201); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 187, 166); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_RTL_DESIGN
+// A (ch): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bv (ch):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (ch)
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: FSM 
+// HMemoryUtils.trashcanNow. Engine heap size: 705 MB. GUI used memory: 42 MB. Current time: 6/12/18 8:15:10 AM CST
+// [Engine Memory]: 711 MB (+63379kb) [00:03:21]
+// [Engine Memory]: 834 MB (+91519kb) [00:03:26]
+// TclEventType: ELABORATE_FINISH
+// [Engine Memory]: 952 MB (+80006kb) [00:03:31]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,035 MB. GUI used memory: 43 MB. Current time: 6/12/18 8:15:24 AM CST
+// [Engine Memory]: 1,042 MB (+44507kb) [00:03:33]
+// TclEventType: DESIGN_NEW
+// Xgd.load filename: D:/vivado/Vivado/2018.1/data/parts/xilinx/artix7/devint/artix7/xc7a100t/xc7a100t.xgd; ZipEntry: xc7a100t_detail.xgd elapsed time: 0.5s
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,122 MB (+28933kb) [00:03:34]
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (shiyan4_2.v) elapsed time: 0.2s
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1021.914 ; gain = 104.348 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'FSM' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] 
+// Tcl Message: 	Parameter IDLE bound to: 0 - type: integer  	Parameter ST1 bound to: 1 - type: integer  	Parameter ST2 bound to: 2 - type: integer  	Parameter ST3 bound to: 3 - type: integer  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:29] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'FSM' (1#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1061.820 ; gain = 144.254 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1061.820 ; gain = 144.254 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1061.820 ; gain = 144.254 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Finished Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1401.625 ; gain = 484.059 
+// Tcl Message: 7 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:20 . Memory (MB): peak = 1401.625 ; gain = 484.059 
+// 'dO' command handler elapsed time: 21 seconds
+// Elapsed time: 21 seconds
+dismissDialog("Open Elaborated Design"); // bv (ch)
+// [GUI Memory]: 89 MB (+1174kb) [00:03:38]
+// PAPropertyPanels.initPanels (c_state_reg[1] (RTL_REG_ASYNC__BREG_1)) elapsed time: 0.2s
+// [GUI Memory]: 96 MB (+2403kb) [00:03:47]
+// Elapsed time: 35 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+// [GUI Memory]: 100 MB (+20kb) [00:06:06]
+// Elapsed time: 122 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aE (Q, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, M1 (shiyan4_1.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "auto_"); // X (Q, F)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,158 MB. GUI used memory: 74 MB. Current time: 6/12/18 8:18:45 AM CST
+// Elapsed time: 64 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "auto_caculation"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 76 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// [GUI Memory]: 107 MB (+1906kb) [00:07:40]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, auto_caculation (auto_caculation.v)]", 12, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, auto_caculation (auto_caculation.v)]", 12, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("auto_caculation.v", 29, 180); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 45, 59); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 62, 50); // cd (w, ch)
+// [GUI Memory]: 114 MB (+1216kb) [00:07:53]
+// Elapsed time: 20 seconds
+selectCodeEditor("auto_caculation.v", 183, 37); // cd (w, ch)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 2); // k (j, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("shiyan4_2.v", 152, 219); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 3); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 164, 104); // cd (w, ch)
+// [GUI Memory]: 122 MB (+2557kb) [00:09:39]
+// Elapsed time: 16 seconds
+selectCodeEditor("auto_caculation.v", 65, 127); // cd (w, ch)
+// Elapsed time: 97 seconds
+selectCodeEditor("auto_caculation.v", 95, 150); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("auto_caculation.v", 52, 166); // cd (w, ch)
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, M1 (shiyan4_1.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, M1 (shiyan4_1.v)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("shiyan4_1.v", 37, 27); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 144, 31); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 3); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 37, 156); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 4); // k (j, ch)
+selectCodeEditor("shiyan4_1.v", 35, 25); // cd (w, ch)
+typeControlKey((HResource) null, "shiyan4_1.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 3); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 10, 155); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 42, 160); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 35, 160); // cd (w, ch)
+typeControlKey((HResource) null, "auto_caculation.v", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("auto_caculation.v", 35, 163); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 96, 159); // cd (w, ch)
+typeControlKey((HResource) null, "auto_caculation.v", 'v'); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 146, 145); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 4); // k (j, ch)
+selectCodeEditor("shiyan4_1.v", 68, 54); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 43, 47); // cd (w, ch)
+typeControlKey((HResource) null, "shiyan4_1.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 3); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 304, 157); // cd (w, ch)
+typeControlKey((HResource) null, "auto_caculation.v", 'v'); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 313, 158); // cd (w, ch)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+selectCodeEditor("auto_caculation.v", 388, 135); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 94, 142); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("auto_caculation.v", 84, 181); // cd (w, ch)
+typeControlKey((HResource) null, "auto_caculation.v", 'c'); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 209, 151); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 200, 155); // cd (w, ch)
+typeControlKey((HResource) null, "auto_caculation.v", 'v'); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 97, 158); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 413, 161); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 296, 128); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("auto_caculation.v", 254, 215); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("auto_caculation.v", 374, 157); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 432, 147); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("auto_caculation.v", 98, 164); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 534, 116); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 445, 158); // cd (w, ch)
+// [GUI Memory]: 129 MB (+815kb) [00:14:20]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 2); // k (j, ch)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // D
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 42, 218); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 303, 139); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 123, 221); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 157, 222); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 126, 223); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 223, 162); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, auto_caculation (auto_caculation.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, auto_caculation (auto_caculation.v)]", 1, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top auto_caculation [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("auto_caculation.v", 142, 183); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ch)
+// bv (ch):  Reloading : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: ELABORATE_START
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1427.879 ; gain = 2.887 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// [Engine Memory]: 1,214 MB (+37311kb) [00:16:32]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 67 MB. Current time: 6/12/18 8:28:24 AM CST
+// Engine heap size: 1,214 MB. GUI used memory: 68 MB. Current time: 6/12/18 8:28:24 AM CST
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'auto_caculation' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v:2] INFO: [Synth 8-6157] synthesizing module 'M1' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:1] INFO: [Synth 8-6157] synthesizing module 'rom16xN' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message:  Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons : 	1: Unable to determine number of words or word size in RAM.  	2: No valid read/write found for RAM.  RAM dissolved into registers 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'rom16xN' (1#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v:1] INFO: [Synth 8-6157] synthesizing module 'n_mux' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_mux' (2#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] INFO: [Synth 8-6157] synthesizing module 'register' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/register.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'register' (3#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/register.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'n_compare' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_compare' (4#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v:1] INFO: [Synth 8-6157] synthesizing module 'n_adder' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_adder' (5#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'M1' (6#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:1] INFO: [Synth 8-6157] synthesizing module 'FSM' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] 
+// Tcl Message: 	Parameter IDLE bound to: 0 - type: integer  	Parameter ST1 bound to: 1 - type: integer  	Parameter ST2 bound to: 2 - type: integer  	Parameter ST3 bound to: 3 - type: integer  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:29] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'FSM' (7#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'auto_caculation' (8#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v:2] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1467.949 ; gain = 42.957 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1467.949 ; gain = 42.957 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:07 . Memory (MB): peak = 1467.949 ; gain = 42.957 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 48 MB. Current time: 6/12/18 8:28:25 AM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Finished Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 1467.949 ; gain = 42.957 
+// Elapsed time: 11 seconds
+dismissDialog("Reloading"); // bv (ch)
+selectCodeEditor("auto_caculation.v", 175, 250); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 16, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+// Schematic: addNotify
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectCodeEditor("shiyan4_1.v", 309, 93); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 162, 129); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 161, 129); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 161, 129, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectCodeEditor("auto_caculation.v", 233, 132); // cd (w, ch)
+// Elapsed time: 47 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("shiyan4_1.v", 9, 244); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 1, 244); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 61, 54); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 37, 65); // cd (w, ch)
+typeControlKey((HResource) null, "shiyan4_1.v", 'v'); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 28, 67); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 191, 63); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 188, 49); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 392, 10); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("shiyan4_1.v", 397, 13); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 500, 94); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("auto_caculation.v", 369, 201); // cd (w, ch)
+selectCodeEditor("auto_caculation.v", 675, 108); // cd (w, ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ch)
+// bv (ch):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (bv)
+selectButton("RDIResource.ProgressDialog_ARE_YOU_SURE_YOU_WANT_TO_CANCEL_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// TclEventType: ELABORATE_FAIL
+// Tcl Message: INFO: [Common 17-344] 'source' was cancelled INFO: [Common 17-344] 'refresh_design' was cancelled 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+dismissDialog("Reloading"); // bv (ch)
+selectCodeEditor("auto_caculation.v", 90, 127); // cd (w, ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ch)
+// bv (ch):  Reloading : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: refresh_design 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: ELABORATE_START
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.949 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// Engine heap size: 1,214 MB. GUI used memory: 55 MB. Current time: 6/12/18 8:31:29 AM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 54 MB. Current time: 6/12/18 8:31:29 AM CST
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'auto_caculation' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v:2] INFO: [Synth 8-6157] synthesizing module 'M1' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:1] INFO: [Synth 8-6157] synthesizing module 'rom16xN' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message:  Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons : 	1: Unable to determine number of words or word size in RAM.  	2: No valid read/write found for RAM.  RAM dissolved into registers 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'rom16xN' (1#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v:1] INFO: [Synth 8-6157] synthesizing module 'n_mux' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_mux' (2#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] INFO: [Synth 8-6157] synthesizing module 'register' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/register.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'register' (3#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/register.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'n_compare' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_compare' (4#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v:1] INFO: [Synth 8-6157] synthesizing module 'n_adder' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_adder' (5#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'M1' (6#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:1] INFO: [Synth 8-6157] synthesizing module 'FSM' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] 
+// Tcl Message: 	Parameter IDLE bound to: 0 - type: integer  	Parameter ST1 bound to: 1 - type: integer  	Parameter ST2 bound to: 2 - type: integer  	Parameter ST3 bound to: 3 - type: integer  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:29] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'FSM' (7#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] INFO: [Synth 8-6155] done synthesizing module 'auto_caculation' (8#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v:2] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1481.980 ; gain = 14.031 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1481.980 ; gain = 14.031 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 1481.980 ; gain = 14.031 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 51 MB. Current time: 6/12/18 8:31:30 AM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Schematic: addNotify
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Finished Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 1496.043 ; gain = 28.094 
+selectCodeEditor("auto_caculation.v", 36, 309); // cd (w, ch)
+// Elapsed time: 11 seconds
+dismissDialog("Reloading"); // bv (ch)
+selectCodeEditor("auto_caculation.v", 178, 135); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // G (Q, ch)
+// Schematic: addNotify
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 5); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 7, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 7, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, Popup.HeavyWeightWindow)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 24 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "auto_caculate_test"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 29 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: DESIGN_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("auto_caculation.v", 31, 212); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 66 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectCodeEditor("shiyan4_2.v", 87, 83); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 355, 91); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 84, 178); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 96, 290); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 254, 335); // cd (w, ch)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 9, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 9, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("auto_caculate_test.v", 32, 408); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 46, 54); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 17, 51); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 24, 49); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 231, 33); // cd (w, ch)
+// Elapsed time: 77 seconds
+selectCodeEditor("auto_caculate_test.v", 174, 76); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 181, 69); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 95, 71); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 177, 76); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 170, 69); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("auto_caculate_test.v", 123, 89); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // k (j, ch)
+selectButton(PAResourceQtoS.SchematicView_ADD, "Schematic_addToSchematic"); // B (f, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 4); // k (j, ch)
+selectCodeEditor("auto_caculate_test.v", 46, 85); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 62, 91); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 41, 86); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 31, 89); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 360, 34); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("auto_caculate_test.v", 65, 89); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("auto_caculate_test.v", 101, 74); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("auto_caculate_test.v", 87, 103); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 58, 52); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 49, 70); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 192, 51); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("auto_caculate_test.v", 61, 111); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("auto_caculate_test.v", 123, 107); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 63, 136); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 80, 153); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 4); // k (j, ch)
+selectCodeEditor("auto_caculate_test.v", 71, 183); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("auto_caculate_test.v", 80, 6); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 123, 11); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 35, 180); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 141, 109); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 136 MB (+585kb) [00:27:38]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("auto_caculate_test.v", 116, 176); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 10 seconds
+selectCodeEditor("auto_caculate_test.v", 102, 123); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+// Elapsed time: 16 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, auto_caculation (auto_caculation.v), t1 : M1 (shiyan4_1.v)]", 2); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, auto_caculation (auto_caculation.v), t1 : M1 (shiyan4_1.v), MUX_NEXT : n_mux (n_mux.v)]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, auto_caculation (auto_caculation.v), t1 : M1 (shiyan4_1.v), MUX_NEXT : n_mux (n_mux.v)]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+selectCodeEditor("shiyan4_1.v", 16, 282); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 187, 279); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 129, 275); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 215, 279); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 27, 355); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("shiyan4_1.v", 206, 355); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 247, 354); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 147, 371); // cd (w, ch)
+typeControlKey((HResource) null, "shiyan4_1.v", 'v'); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 245, 355); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 204, 352); // cd (w, ch)
+typeControlKey((HResource) null, "shiyan4_1.v", 'v'); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 112, 369); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 310, 348); // cd (w, ch)
+typeControlKey((HResource) null, "shiyan4_1.v", 'v'); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 336, 307); // cd (w, ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectCodeEditor("shiyan4_1.v", 372, 309); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "n_mux.v", 5); // k (j, ch)
+// [GUI Memory]: 144 MB (+912kb) [00:30:12]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 4); // k (j, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "n_mux.v", 5); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_2.v", 0); // k (j, ch)
+selectCodeEditor("shiyan4_2.v", 180, 202); // cd (w, ch)
+selectCodeEditor("shiyan4_2.v", 170, 218); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("shiyan4_2.v", 195, 219); // cd (w, ch)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 3); // k (j, ch)
+selectCodeEditor("auto_caculate_test.v", 400, 151); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("auto_caculate_test.v", 48, 156); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 96, 126); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectCodeEditor("auto_caculate_test.v", 47, 127); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 131, 125); // cd (w, ch)
+// Elapsed time: 72 seconds
+selectCodeEditor("auto_caculate_test.v", 44, 126); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 111, 169); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 110, 174); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("auto_caculate_test.v", 113, 165); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("auto_caculate_test.v", 196, 123); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'auto_caculation' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim/xsim.dir/auto_caculation_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim/xsim.dir/auto_caculation_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Jun 12 08:45:02 2018. For additional details about this file, please refer to the WebTalk help file at D:/vivado/Vivado/2018.1/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Tue Jun 12 08:45:02 2018... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1496.043 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '7' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "auto_caculation_behav -key {Behavioral:sim_1:Functional:auto_caculation} -tclbatch {auto_caculation.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 88 MB. Current time: 6/12/18 8:45:05 AM CST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: source auto_caculation.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: # run 1000ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support. Time: 0 ps  Iteration: 0  Process: /auto_caculation/t2/Always27_11   File: E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v  HDL Line: E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:36 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 1502.785 ; gain = 0.000 xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:31 . Memory (MB): peak = 1502.785 ; gain = 6.742 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'auto_caculation_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:07 ; elapsed = 00:00:40 . Memory (MB): peak = 1502.785 ; gain = 6.742 
+// 'd' command handler elapsed time: 40 seconds
+// Elapsed time: 40 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "shiyan4_1.v", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 5); // k (j, ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 642, 79); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "n_mux.v", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 5); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "n_mux.v", 4); // k (j, ch)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 642, 79); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 642, 79); // n (o, aG)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 642, 79); // n (o, aG)Waveform: addNotify
+floatView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // aw (aE, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// RDIResource.RDIViews_WAVEFORM_VIEWER: Untitled 1: float view
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 89 MB. Current time: 6/12/18 8:46:19 AM CST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 642, 79); // n (o, ch)Waveform: addNotify
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 642, 79); // n (o, ch)Waveform: addNotify
+// TclEventType: WAVEFORM_CLOSE_WCFG
+// RDIResource.RDIViews_WAVEFORM_VIEWER: Untitled 1: close view
+closeFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // aw (aE, aG)
+dockFrame(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // aw (aE, aG)
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // w
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k (aC, ch)
+closeTask("Simulation", "Behavioral Simulation - Functional - sim_1 - auto_caculation", "DesignTask.SIMULATION");
+// A (ch): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// Tcl Message: close_sim: Time (s): cpu = 00:00:00 ; elapsed = 00:00:31 . Memory (MB): peak = 1502.785 ; gain = 0.000 
+// Elapsed time: 30 seconds
+dismissDialog("Confirm Close"); // A (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 20, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 20, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ac (ai, Popup.HeavyWeightWindow)
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property top auto_caculate_test [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top_lib xil_defaultlib [get_filesets sim_1] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 18, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 18, false, false, false, false, false, true); // B (D, ch) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17); // B (D, ch)
+selectCodeEditor("auto_caculate_test.v", 205, 88); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculation (auto_caculation.v)]", 17, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 18, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 18, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, auto_caculate_test (auto_caculate_test.v)]", 18, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("auto_caculate_test.v", 129, 104); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 1); // k (j, ch)
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 1); // k (j, ch)
+selectCodeEditor("auto_caculate_test.v", 176, 75); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'auto_caculate_test' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj auto_caculate_test_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module auto_caculate_test 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 4 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+unMinimizeFrame(PAResourceOtoP.PAViews_MESSAGES, "Messages"); // aw
+// Elapsed time: 17 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 107, true); // ah (O, ch) - Node
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1]", 107); // ah (O, ch)
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-278] actual bit length 4 differs from formal bit length 32 for port op1 [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:19]. ]", 108, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\verilog\lpz_vivado\shiyan4\shiyan4.srcs\sources_1\new\shiyan4_1.v;-;;-;16;-;line;-;19;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-278] actual bit length 4 differs from formal bit length 32 for port op1 [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:19]. ]", 108, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\verilog\lpz_vivado\shiyan4\shiyan4.srcs\sources_1\new\shiyan4_1.v;-;;-;16;-;line;-;19;-;;-;16;-;"); // ah (O, ch)
+selectCodeEditor("shiyan4_1.v", 50, 90); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("shiyan4_1.v", 61, 87); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 113, 115); // cd (w, ch)
+selectCodeEditor("shiyan4_1.v", 136, 102); // cd (w, ch)
+// TclEventType: DESIGN_STALE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-529] concurrent assignment to a non-net done is not permitted [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v:6]. ]", 109, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\verilog\lpz_vivado\shiyan4\shiyan4.srcs\sources_1\new\auto_caculate_test.v;-;;-;16;-;line;-;6;-;;-;16;-;"); // ah (O, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculation.v", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "auto_caculate_test.v", 1); // k (j, ch)
+selectCodeEditor("auto_caculate_test.v", 195, 72); // cd (w, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-529] concurrent assignment to a non-net done is not permitted [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v:6]. ]", 109, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\verilog\lpz_vivado\shiyan4\shiyan4.srcs\sources_1\new\auto_caculate_test.v;-;;-;16;-;line;-;6;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("auto_caculate_test.v", 24, 89); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 102, 96); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceOtoP.ProjectTab_RELOAD, "Reload"); // h (cM, ch)
+// bv (ch):  Reloading : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: refresh_design 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1502.785 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: ELABORATE_FINISH
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 78 MB. Current time: 6/12/18 8:50:41 AM CST
+// Engine heap size: 1,214 MB. GUI used memory: 79 MB. Current time: 6/12/18 8:50:41 AM CST
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'auto_caculation' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v:2] INFO: [Synth 8-6157] synthesizing module 'M1' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:1] INFO: [Synth 8-6157] synthesizing module 'rom16xN' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message:  Warning: Trying to implement RAM in registers. Block RAM or DRAM implementation is not possible for one or more of the following reasons : 	1: Unable to determine number of words or word size in RAM.  	2: No valid read/write found for RAM.  RAM dissolved into registers 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'rom16xN' (1#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v:1] INFO: [Synth 8-6157] synthesizing module 'n_mux' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_mux' (2#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] INFO: [Synth 8-6157] synthesizing module 'register' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/register.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'register' (3#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/register.v:1] 
+// Tcl Message: INFO: [Synth 8-6157] synthesizing module 'n_compare' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_compare' (4#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v:1] INFO: [Synth 8-6157] synthesizing module 'n_adder' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v:1] 
+// Tcl Message: 	Parameter N bound to: 32 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_adder' (5#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v:1] INFO: [Synth 8-6157] synthesizing module 'n_mux__parameterized0' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] 
+// Tcl Message: 	Parameter N bound to: 4 - type: integer  
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'n_mux__parameterized0' (5#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v:1] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'M1' (6#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v:1] INFO: [Synth 8-6157] synthesizing module 'FSM' [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] 
+// Tcl Message: 	Parameter IDLE bound to: 0 - type: integer  	Parameter ST1 bound to: 1 - type: integer  	Parameter ST2 bound to: 2 - type: integer  	Parameter ST3 bound to: 3 - type: integer  
+// Tcl Message: INFO: [Synth 8-226] default block is never used [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:29] 
+// Tcl Message: INFO: [Synth 8-6155] done synthesizing module 'FSM' (7#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:2] INFO: [Synth 8-6155] done synthesizing module 'auto_caculation' (8#1) [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v:2] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1502.785 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message:  Report Check Netlist:  +------+------------------+-------+---------+-------+------------------+ |      |Item              |Errors |Warnings |Status |Description       | +------+------------------+-------+---------+-------+------------------+ |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets | +------+------------------+-------+---------+-------+------------------+ 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1502.785 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1502.785 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_REFRESH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 58 MB. Current time: 6/12/18 8:50:42 AM CST
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Finished Parsing XDC File [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/constrs_1/imports/FileRecv/Nexys4_Master.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: refresh_design: Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1511.211 ; gain = 8.426 
+// Elapsed time: 11 seconds
+dismissDialog("Reloading"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'auto_caculate_test' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a (e)
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: D:/vivado/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 77413fc51bc44faa9290564b834a7060 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot auto_caculate_test_behav xil_defaultlib.auto_caculate_test xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration ERROR: [VRFC 10-529] concurrent assignment to a non-net done is not permitted [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v:6] ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim/elaborate.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+dismissDialog("Run Simulation"); // e (ch)
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-529] concurrent assignment to a non-net done is not permitted [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v:6]. ]", 103, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Simulation, sim_1, [VRFC 10-529] concurrent assignment to a non-net done is not permitted [E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v:6]. ]", 103, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;E:\verilog\lpz_vivado\shiyan4\shiyan4.srcs\sources_1\new\auto_caculate_test.v;-;;-;16;-;line;-;6;-;;-;16;-;"); // ah (O, ch)
+selectCodeEditor("auto_caculate_test.v", 22, 73); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 138, 31); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'auto_caculate_test' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot auto_caculate_test_behav  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim/xsim.dir/auto_caculate_test_behav/webtalk/xsim_webtalk.tcl -notrace 
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1511.211 ; gain = 0.000 
+// CommandFailedException: ERROR: [Common 17-69] Command failed:  
+// Tcl Message: INFO: [Common 17-344] 'run_program' was cancelled INFO: [Vivado 12-5357] 'elaborate' step aborted 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1511.211 ; gain = 0.000 
+// Tcl Message: INFO: [Common 17-344] 'launch_simulation' was cancelled 
+// 'd' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectCodeEditor("auto_caculate_test.v", 129, 89); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 68, 70); // cd (w, ch)
+selectCodeEditor("auto_caculate_test.v", 104, 58); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'auto_caculate_test' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "auto_caculate_test_behav -key {Behavioral:sim_1:Functional:auto_caculate_test} -tclbatch {auto_caculate_test.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,214 MB. GUI used memory: 88 MB. Current time: 6/12/18 8:51:30 AM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source auto_caculate_test.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// Tcl Message: # run 1000ns 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: FATAL_ERROR: Vivado Simulator kernel has discovered an exceptional condition from which it cannot recover. Process will terminate. For technical support on this issue, please open a WebCase with this project attached at http://www.xilinx.com/support. Time: 0 ps  Iteration: 0  Process: /auto_caculate_test/test/t2/Always27_11   File: E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v  HDL Line: E:/verilog/lpz_vivado/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v:36 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: run: Time (s): cpu = 00:00:01 ; elapsed = 00:00:28 . Memory (MB): peak = 1511.211 ; gain = 0.000 xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:30 . Memory (MB): peak = 1511.211 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'auto_caculate_test_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:32 . Memory (MB): peak = 1511.211 ; gain = 0.000 
+// 'd' command handler elapsed time: 32 seconds
+// Elapsed time: 32 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM

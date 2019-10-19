@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"M2_test_time_impl.v" \
+"../../../../../../project_1/project_1.srcs/sim_1/new/M2_test.v" \
+
+# Do not sort compile order
+nosort

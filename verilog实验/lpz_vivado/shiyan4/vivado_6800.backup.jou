@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun 13 15:39:27 2018
+# Process ID: 6800
+# Current directory: E:/verilog/lpz_vivado/shiyan4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15332 E:\verilog\lpz_vivado\shiyan4\shiyan4.xpr
+# Log file: E:/verilog/lpz_vivado/shiyan4/vivado.log
+# Journal file: E:/verilog/lpz_vivado/shiyan4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/verilog/lpz_vivado/shiyan4/shiyan4.xpr
+update_compile_order -fileset sources_1

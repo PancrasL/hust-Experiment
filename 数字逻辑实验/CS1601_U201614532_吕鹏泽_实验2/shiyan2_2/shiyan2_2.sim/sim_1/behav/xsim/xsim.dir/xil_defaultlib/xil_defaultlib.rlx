@@ -1,0 +1,16 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/comparator_3_bit_test.v,1528890959,verilog,,,,comparator_3_bit_test,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/comparator_test.v,1529420640,verilog,,,,comparator_test,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/counter_mod_8_test.v,1528983182,verilog,,,,counter_mod_8_test,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/counter_test.v,1528979122,verilog,,,,counter_test,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/sequential_detector_test.v,1528980991,verilog,,,,sequential_detector_test,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sources_1/new/comparator.v,1528881933,verilog,,E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/comparator_test.v,,comparator,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sources_1/new/comparator_3_bit.v,1528889494,verilog,,E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/comparator_3_bit_test.v,,comparator_3_bit,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sources_1/new/counter.v,1529054666,verilog,,E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sources_1/new/counter_mod_8.v,,counter,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sources_1/new/counter_mod_8.v,1529393590,verilog,,E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/counter_mod_8_test.v,,counter_mod_8,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sources_1/new/divider.v,1528975828,verilog,,E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/counter_mod_8_test.v,,divider,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sources_1/new/sequential_detector.v,1528984892,verilog,,E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/sequential_detector_test.v,,sequential_detector,,,,,,,,

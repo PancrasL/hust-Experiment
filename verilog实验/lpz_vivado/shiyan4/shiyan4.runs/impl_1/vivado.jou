@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 12 11:46:35 2018
+# Process ID: 3312
+# Current directory: E:/verilog/lpz_vivado/shiyan4/shiyan4.runs/impl_1
+# Command line: vivado.exe -log auto_caculation.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source auto_caculation.tcl -notrace
+# Log file: E:/verilog/lpz_vivado/shiyan4/shiyan4.runs/impl_1/auto_caculation.vdi
+# Journal file: E:/verilog/lpz_vivado/shiyan4/shiyan4.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source auto_caculation.tcl -notrace

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Webtalk v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 12 11:49:17 2018
+# Process ID: 4220
+# Current directory: E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/impl/timing/xsim
+# Command line: wbtcv.exe -mode batch -source E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/impl/timing/xsim/xsim.dir/auto_caculate_test_time_impl/webtalk/xsim_webtalk.tcl -notrace
+# Log file: E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/impl/timing/xsim/webtalk.log
+# Journal file: E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/impl/timing/xsim\webtalk.jou
+#-----------------------------------------------------------
+source E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/impl/timing/xsim/xsim.dir/auto_caculate_test_time_impl/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/verilog/lpz_vivado/shiyan4/shiyan4.sim/sim_1/impl/timing/xsim/xsim.dir/auto_caculate_test_time_impl/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Tue Jun 12 11:49:21 2018. For additional details about this file, please refer to the WebTalk help file at D:/vivado/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue Jun 12 11:49:21 2018...

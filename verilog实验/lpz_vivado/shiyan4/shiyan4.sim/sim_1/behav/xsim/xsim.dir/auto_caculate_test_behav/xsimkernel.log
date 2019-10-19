@@ -1,0 +1,7 @@
+Running: xsim.dir/auto_caculate_test_behav/xsimk.exe -simmode gui -wdb auto_caculate_test_behav.wdb -simrunnum 0 -socket 53522
+Design successfully loaded
+Design Loading Memory Usage: 4928 KB (Peak: 4928 KB)
+Design Loading CPU Usage: 15 ms
+Simulation completed
+Simulation Memory Usage: 5620 KB (Peak: 5620 KB)
+Simulation CPU Usage: 31 ms

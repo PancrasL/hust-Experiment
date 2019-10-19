@@ -1,0 +1,3 @@
+程序在codeblocks下编译运行，源代码为main.c和dorm.h
+其中main.exe可执行文件，class.dat,renter.dat,room.dat均为数据文件。
+导入的租客原始数据在说明.txt中

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Sep 13 12:45:28 2018
+# Process ID: 13904
+# Current directory: E:/keshe
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17372 E:\keshe\keshe.xpr
+# Log file: E:/keshe/vivado.log
+# Journal file: E:/keshe\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/keshe/keshe.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 887.371 ; gain = 147.582
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Sep 13 12:49:50 2018...

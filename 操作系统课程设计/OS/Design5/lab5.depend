@@ -1,0 +1,62 @@
+# depslib dependency file v1.0
+1551350993 source:/home/lvpengze/MyCode/code/OS/lab5/main.cpp
+	<iostream>
+	<stdlib.h>
+	<string>
+	<vector>
+	"blockManage_layer.h"
+	"fileControl_layer.h"
+	"fileOperation_layer.h"
+	"fileCommond.h"
+
+1551098858 /home/lvpengze/MyCode/code/OS/lab5/manage_layer.hpp
+	<iostream>
+	<memory.h>
+	<fstream>
+	<stdlib.h>
+	"filesystem_struct.h"
+
+1551337793 /home/lvpengze/MyCode/code/OS/lab5/filesystem_struct.h
+	<iostream>
+	<bitset>
+	<time.h>
+
+1551257947 source:/home/lvpengze/MyCode/code/OS/lab5/blockManage_layer.cpp
+	"blockManage_layer.h"
+
+1551164385 /home/lvpengze/MyCode/code/OS/lab5/blockManage_layer.h
+	<iostream>
+	<memory.h>
+	<fstream>
+	<stdlib.h>
+	"filesystem_struct.h"
+
+1551351466 source:/home/lvpengze/MyCode/code/OS/lab5/fileControl_layer.cpp
+	"fileControl_layer.h"
+	<time.h>
+
+1551279704 /home/lvpengze/MyCode/code/OS/lab5/fileControl_layer.h
+	<iostream>
+	<string.h>
+	"filesystem_struct.h"
+	"blockManage_layer.h"
+
+1551352157 source:/home/lvpengze/MyCode/code/OS/lab5/fileOperation_layer.cpp
+	"fileOperation_layer.h"
+	"fileControl_layer.h"
+	<iostream>
+	<time.h>
+
+1551339795 /home/lvpengze/MyCode/code/OS/lab5/fileOperation_layer.h
+	"filesystem_struct.h"
+	<vector>
+
+1551348886 /home/lvpengze/MyCode/code/OS/lab5/fileCommond.h
+
+1551352524 source:/home/lvpengze/MyCode/code/OS/lab5/fileCommond.cpp
+	"fileCommond.h"
+	<string>
+	"fileControl_layer.h"
+	"fileOperation_layer.h"
+	"filesystem_struct.h"
+

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+<GridPane prefHeight="320.0" prefWidth="400.0" stylesheets="@application.css"
+	xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="application.LoginController">
+	<columnConstraints>
+		<ColumnConstraints hgrow="SOMETIMES"
+			maxWidth="129.0" minWidth="10.0" prefWidth="100.0" />
+		<ColumnConstraints hgrow="SOMETIMES"
+			maxWidth="225.0" minWidth="10.0" prefWidth="220.0" />
+		<ColumnConstraints hgrow="SOMETIMES" maxWidth="99.0"
+			minWidth="10.0" prefWidth="80.0" />
+	</columnConstraints>
+	<rowConstraints>
+		<RowConstraints minHeight="10.0" prefHeight="30.0"
+			vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0"
+			vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0"
+			vgrow="SOMETIMES" />
+		<RowConstraints minHeight="10.0" prefHeight="30.0"
+			vgrow="SOMETIMES" />
+	</rowConstraints>
+	<children>
+		<Label fx:id="lblTitle" text="医院挂号管理系统" GridPane.columnIndex="1"
+			GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+			<font>
+				<Font size="23.0" />
+			</font>
+		</Label>
+		<Label text="用户名：" GridPane.halignment="RIGHT"
+			GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+		<TextField fx:id="inputUsername" GridPane.columnIndex="1"
+			GridPane.columnSpan="2" GridPane.rowIndex="1">
+			<GridPane.margin>
+				<Insets left="20.0" right="50.0" />
+			</GridPane.margin>
+		</TextField>
+		<Label text="密 码：" GridPane.halignment="RIGHT"
+			GridPane.rowIndex="2" GridPane.valignment="CENTER" />
+		<PasswordField fx:id="inputPassword"
+			GridPane.columnIndex="1" GridPane.columnSpan="2"
+			GridPane.rowIndex="2">
+			<GridPane.margin>
+				<Insets left="20.0" right="50.0" />
+			</GridPane.margin>
+		</PasswordField>
+		<AnchorPane prefHeight="59.0" prefWidth="300.0"
+			GridPane.columnIndex="1" GridPane.columnSpan="2"
+			GridPane.rowIndex="3">
+			<children>
+				<Button fx:id="doctorLogin" layoutX="14.0" layoutY="14.0"
+					mnemonicParsing="false" onAction="#doctorLogin" text="医生登陆"
+					AnchorPane.leftAnchor="14.0" />
+				<Button fx:id="patientLogin" layoutX="180.0" layoutY="14.0"
+					mnemonicParsing="false" onAction="#patientLogin" text="病人登陆"
+					AnchorPane.rightAnchor="40.0" />
+				<Label fx:id="loginInfo" layoutX="86.0" layoutY="-10.0"
+					prefHeight="20.0" prefWidth="105.0" textFill="RED" />
+			</children>
+		</AnchorPane>
+		<ImageView fitHeight="60.0" fitWidth="60.0"
+			pickOnBounds="true" preserveRatio="true">
+			<image>
+				<Image url="@images/earth.png" />
+			</image>
+			<GridPane.margin>
+				<Insets left="20.0" />
+			</GridPane.margin>
+		</ImageView>
+	</children>
+</GridPane>

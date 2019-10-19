@@ -1,0 +1,19 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 9536edca1b8740a7815feff53195a710 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot pipe3b_test_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.pipe3b_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "pipe3b_test_time_impl.sdf", for root module "pipe3b_test/test".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "pipe3b_test_time_impl.sdf", for root module "pipe3b_test/test".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.FDRE_default
+Compiling module xil_defaultlib.pipe3b
+Compiling module xil_defaultlib.pipe3b_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot pipe3b_test_time_impl

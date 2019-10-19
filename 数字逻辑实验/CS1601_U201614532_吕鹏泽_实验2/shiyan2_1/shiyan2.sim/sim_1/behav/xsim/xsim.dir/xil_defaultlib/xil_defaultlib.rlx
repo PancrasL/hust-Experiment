@@ -1,0 +1,10 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+E:/shu_zi_luo_ji/shiyan2_1/shiyan2.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sim_1/imports/new/M2_test.v,1528373918,verilog,,,,M2_test,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sim_1/imports/new/pipe3b_test.v,1528447061,verilog,,,,pipe3b_test,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sources_1/imports/new/2_1_A.v,1528379356,verilog,,E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sources_1/imports/new/JK.v,,M2,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sources_1/imports/new/JK.v,1528380298,verilog,,E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sim_1/imports/new/M2_test.v,,JK,,,,,,,,
+E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sources_1/new/main.v,1529390990,verilog,,E:/shu_zi_luo_ji/shiyan2_1/shiyan2.srcs/sim_1/imports/new/pipe3b_test.v,,pipe3b,,,,,,,,

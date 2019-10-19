@@ -1,0 +1,8 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 2b507caa4d4c4004a074f68160aabed3 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot comparator_test_behav xil_defaultlib.comparator_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-1276] primitive output connection must be a scalar var or net [E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/comparator_test.v:17]
+WARNING: [VRFC 10-277] actual bit length 4 differs from formal bit length 1 [E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/comparator_test.v:17]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

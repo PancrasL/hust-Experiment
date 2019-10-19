@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>917</width>
+    <height>551</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>天隆汽车租赁</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <widget class="QStackedWidget" name="stackedWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="rentPage">
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QTableWidget" name="tableWidgetCarInfo">
+          <property name="selectionMode">
+           <enum>QAbstractItemView::SingleSelection</enum>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <property name="sortingEnabled">
+           <bool>true</bool>
+          </property>
+          <column>
+           <property name="text">
+            <string>车牌号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>车辆型号</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>车辆品牌</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>车辆押金</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>出租价格/日</string>
+           </property>
+          </column>
+          <column>
+           <property name="text">
+            <string>超时价格/日</string>
+           </property>
+          </column>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="historyPage">
+       <widget class="QLabel" name="label_2">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>72</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>历史订单</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="sheetPage">
+       <widget class="QLabel" name="label_3">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>72</width>
+          <height>15</height>
+         </rect>
+        </property>
+        <property name="text">
+         <string>我的消费</string>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>917</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuOrder">
+    <property name="title">
+     <string>订单管理</string>
+    </property>
+    <addaction name="actionRentCar"/>
+    <addaction name="separator"/>
+    <addaction name="actionHistoryOrder"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>报表统计</string>
+    </property>
+    <addaction name="actionSheet"/>
+   </widget>
+   <addaction name="menuOrder"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionRentCar"/>
+   <addaction name="actionHistoryOrder"/>
+   <addaction name="actionSheet"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionRentCar">
+   <property name="text">
+    <string>我要租车</string>
+   </property>
+  </action>
+  <action name="actionHistoryOrder">
+   <property name="text">
+    <string>历史订单</string>
+   </property>
+  </action>
+  <action name="actionSheet">
+   <property name="text">
+    <string>我的消费</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

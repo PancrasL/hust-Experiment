@@ -1,0 +1,51 @@
+.386
+CODE SEGMENT USE16
+	ASSUME CS:CODE,SS:STACK
+OLD_INT DW ?,?				;新程序中使用的变量，用于存放旧中断矢量
+KEY DW 0F1F1H		
+NEW16H:
+	CMP AH,0				;判断是否为读键盘
+	JE TO_UPPER				
+	CMP AH,10H				;判断是否为读拓展键盘
+	JE TO_UPPER
+	JMP DWORD PTR OLD_INT	;继续原中断处理程序功能
+TO_UPPER:
+	PUSHF
+	CALL DWORD PTR OLD_INT
+	CMP AL,'a'				;ASCII码大于等于'a'，转TRANS，进一步判断ASCII码是否小于'z'
+	JGE TRANS	
+	JMP QUIT
+TRANS:
+	CMP AL,'z'				;ASCII码小于等于'z'
+	JG QUIT
+	SUB AL,32				;小写转换为大写
+	JMP QUIT
+QUIT:
+	IRET
+
+START:
+	XOR AX,AX
+	MOV DS,AX				;DS=0
+	MOV AX,DS:[16H*4]		;取原16H的中断矢量的偏移部分并保存
+	MOV OLD_INT,AX
+	MOV AX,DS:[16H*4+2]		;取原16H的中断矢量的段值并保存
+	MOV OLD_INT+2,AX
+	
+	CLI						;关中断
+	MOV WORD PTR DS:[16H*4],OFFSET NEW16H
+	MOV DS:[16H*4+2],CS
+	STI						;开中断
+	
+	MOV DX,OFFSET START+15
+	SHR DX,4				;字节数换成节数
+	ADD DX,10H				;程序段前缀内容
+	
+	MOV AL,0
+	MOV AH,31H
+	INT 21H
+CODE ENDS
+STACK SEGMENT STACK USE16
+	DB 200 DUP(0)
+STACK ENDS
+	END START
+	

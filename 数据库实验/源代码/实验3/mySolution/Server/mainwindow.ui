@@ -1,0 +1,1068 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1005</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Server</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+	border-style:outset;
+	background-color:rgba(190, 253, 190);
+	border-width:4px;
+	border-radius:10px;
+	border-color:rgba(200,200,255,255);
+	font:bold 16px;
+	color:rgba(0,0,0,255);
+	padding:4px;
+}
+QPushButton:pressed{
+    border-style:inset;
+}
+QPushButton:hover{
+    background-color:rgba(148, 221, 132);
+    color:rgba(0,0,0,200);
+}
+#centralWidget{
+	background-color: qlineargradient(spread:repeat, x1:0, y1:0, x2:1, y2:1, stop:0 rgba(200, 200, 200, 255), stop:1 rgba(255, 255, 255, 255));
+	border-style:solid;
+	border-width:4px;
+	border-radius:10px;
+	border-color:rgba(222,252,249);
+	font:bold 16px;
+	color:rgba(0,0,0,255);
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="styleSheet">
+         <string notr="true">
+            anchors.fill: parent
+            verticalAlignment: Text.AlignVCenter
+            horizontalAlignment: styleData.textAlignment
+            anchors.leftMargin: 12
+            text: styleData.value
+            elide: Text.ElideRight
+            color: textColor
+            renderType: Text.NativeRendering</string>
+        </property>
+        <property name="text">
+         <string>日期时间：</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="labelDateTime">
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+     </layout>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label">
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Sunken</enum>
+      </property>
+      <property name="text">
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:16pt; font-weight:600; color:#000000;&quot;&gt;服务器&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::RichText</enum>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="wordWrap">
+       <bool>false</bool>
+      </property>
+      <property name="margin">
+       <number>1</number>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <spacer name="horizontalSpacer_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <property name="sizeHint" stdset="0">
+       <size>
+        <width>379</width>
+        <height>20</height>
+       </size>
+      </property>
+     </spacer>
+    </item>
+    <item row="1" column="0" colspan="3">
+     <widget class="Line" name="line_2">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout_4">
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QLabel" name="label_3">
+          <property name="text">
+           <string>起始日期</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="startDateEdit">
+          <property name="calendarPopup">
+           <bool>true</bool>
+          </property>
+          <property name="date">
+           <date>
+            <year>2015</year>
+            <month>1</month>
+            <day>1</day>
+           </date>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <spacer name="horizontalSpacer_3">
+        <property name="orientation">
+         <enum>Qt::Horizontal</enum>
+        </property>
+        <property name="sizeHint" stdset="0">
+         <size>
+          <width>40</width>
+          <height>20</height>
+         </size>
+        </property>
+       </spacer>
+      </item>
+      <item>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QLabel" name="label_4">
+          <property name="text">
+           <string>终止日期</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QDateEdit" name="closingDateEdit">
+          <property name="calendarPopup">
+           <bool>true</bool>
+          </property>
+          <property name="date">
+           <date>
+            <year>2029</year>
+            <month>1</month>
+            <day>1</day>
+           </date>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+    <item row="3" column="0" colspan="3">
+     <widget class="Line" name="line">
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0" colspan="3">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="font">
+       <font>
+        <family>楷体</family>
+        <pointsize>11</pointsize>
+       </font>
+      </property>
+      <property name="focusPolicy">
+       <enum>Qt::WheelFocus</enum>
+      </property>
+      <property name="autoFillBackground">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">selection-background-color: rgb(211, 244, 255);
+selection-color: rgb(255, 92, 95);</string>
+      </property>
+      <property name="tabPosition">
+       <enum>QTabWidget::South</enum>
+      </property>
+      <property name="tabShape">
+       <enum>QTabWidget::Rounded</enum>
+      </property>
+      <property name="currentIndex">
+       <number>4</number>
+      </property>
+      <widget class="QWidget" name="tab">
+       <property name="styleSheet">
+        <string notr="true">border-top-color: rgb(134, 255, 78);</string>
+       </property>
+       <attribute name="title">
+        <string>登录记录</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_2">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_11">
+           <item row="0" column="0">
+            <widget class="QTableWidget" name="log">
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string>时间</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>对象</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>事件</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_2">
+       <attribute name="title">
+        <string>订单信息</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_2">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_10">
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_5">
+             <item>
+              <widget class="QComboBox" name="comboBoxRentInfo">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <item>
+                <property name="text">
+                 <string>订单编号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>身份证号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>员工编号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>车牌号</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditRentInfo"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushBtnFindRent">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <widget class="QTableWidget" name="tableWidgetRentInfo">
+             <property name="gridStyle">
+              <enum>Qt::SolidLine</enum>
+             </property>
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string>订单编号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>身份证号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>员工编号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>车牌号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>订单日期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>取车日期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>还车日期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>缴费费用</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>实缴押金</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>订单状态</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>租车时长/日</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_3">
+       <property name="cursor">
+        <cursorShape>ArrowCursor</cursorShape>
+       </property>
+       <attribute name="title">
+        <string>员工信息</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_4">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_3">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_8">
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_6">
+             <item>
+              <widget class="QComboBox" name="comboBoxEmployeeInfo">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <item>
+                <property name="text">
+                 <string>员工姓名</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>员工编号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>电话号码</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditEmployeeInfo"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushBtnFindEmployee">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <widget class="QTableWidget" name="tableWidgetEmployeeInfo">
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string>员工编号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>登录密码</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>员工姓名</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>员工性别</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>电话号码</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>入职日期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>员工类别</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_4">
+       <attribute name="title">
+        <string>客户信息</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_4">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_7">
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_7">
+             <item>
+              <widget class="QComboBox" name="comboBoxUserInfo">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <item>
+                <property name="text">
+                 <string>客户姓名</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>身份证号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>手机号码</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditUserInfo"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushBtnFindUser">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <widget class="QTableWidget" name="tableWidgetUserInfo">
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string>身份证号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>登录密码</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>电话号码</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>用户姓名</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>用户性别</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>用户生日</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>会员等级</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>信誉积分</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>账户余额</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>注册日期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>密保问题</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>密保答案</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_5">
+       <attribute name="title">
+        <string>车辆信息</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_6">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_5">
+          <property name="font">
+           <font>
+            <family>宋体</family>
+           </font>
+          </property>
+          <property name="cursor">
+           <cursorShape>ArrowCursor</cursorShape>
+          </property>
+          <property name="focusPolicy">
+           <enum>Qt::ClickFocus</enum>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_9">
+           <item row="1" column="0" colspan="2">
+            <widget class="QTableWidget" name="tableWidgetCarInfo">
+             <property name="minimumSize">
+              <size>
+               <width>812</width>
+               <height>0</height>
+              </size>
+             </property>
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <attribute name="horizontalHeaderCascadingSectionResizes">
+              <bool>false</bool>
+             </attribute>
+             <column>
+              <property name="text">
+               <string>车牌号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>车辆型号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>车辆品牌</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>购车日期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>车辆押金</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>出租价格/日</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>超时价格/日</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>车辆状态</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_8">
+             <item>
+              <widget class="QComboBox" name="comboBoxCarInfo">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <item>
+                <property name="text">
+                 <string>车牌号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>车辆型号</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditCarInfo"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushBtnFindCar">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_6">
+       <attribute name="title">
+        <string>损坏信息</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_13">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_6">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_12">
+           <item row="0" column="0">
+            <layout class="QHBoxLayout" name="horizontalLayout_9">
+             <item>
+              <widget class="QComboBox" name="comboBoxBrokenInfo">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <item>
+                <property name="text">
+                 <string>损坏编号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>车牌号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>用户身份证号</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditBrokenInfo"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushBtnBrokenInfo">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+           <item row="1" column="0">
+            <widget class="QTableWidget" name="tableWidgetBrokenInfo">
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string>损坏编号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>车牌号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>用户身份证号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>损坏日期</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>损坏概况</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>损坏程度</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>是否已经修复</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>维修价格</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="tab_7">
+       <attribute name="title">
+        <string>违章信息</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_15">
+        <item row="0" column="0">
+         <widget class="QFrame" name="frame_7">
+          <property name="frameShape">
+           <enum>QFrame::StyledPanel</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <layout class="QGridLayout" name="gridLayout_14">
+           <item row="1" column="0" colspan="2">
+            <widget class="QTableWidget" name="tableWidgetRecordInfo">
+             <property name="sortingEnabled">
+              <bool>true</bool>
+             </property>
+             <column>
+              <property name="text">
+               <string>罚单编号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>身份证号</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>违章情况</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>违规罚金</string>
+              </property>
+             </column>
+             <column>
+              <property name="text">
+               <string>违规日期</string>
+              </property>
+             </column>
+            </widget>
+           </item>
+           <item row="0" column="0" colspan="2">
+            <layout class="QHBoxLayout" name="horizontalLayout_10">
+             <item>
+              <widget class="QComboBox" name="comboBoxRecordInfo">
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <item>
+                <property name="text">
+                 <string>罚单编号</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>用户身份证号</string>
+                </property>
+               </item>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLineEdit" name="lineEditRecordInfo"/>
+             </item>
+             <item>
+              <widget class="QPushButton" name="pushBtnRecordInfo">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>30</height>
+                </size>
+               </property>
+               <property name="cursor">
+                <cursorShape>PointingHandCursor</cursorShape>
+               </property>
+               <property name="text">
+                <string>查询</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </item>
+          </layout>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1005</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>统计报表</string>
+    </property>
+    <addaction name="actionIncome"/>
+    <addaction name="separator"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>管理</string>
+    </property>
+    <addaction name="actionNewCar"/>
+    <addaction name="separator"/>
+    <addaction name="actionNewEmployee"/>
+    <addaction name="separator"/>
+    <addaction name="actionVIP"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionIncome"/>
+   <addaction name="actionNewCar"/>
+   <addaction name="actionNewEmployee"/>
+   <addaction name="actionVIP"/>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+  <action name="actionIncome">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/income.png</normaloff>:/images/income.png</iconset>
+   </property>
+   <property name="text">
+    <string>财务报表</string>
+   </property>
+  </action>
+  <action name="actionNewCar">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/newCar.png</normaloff>:/images/newCar.png</iconset>
+   </property>
+   <property name="text">
+    <string>新增车辆</string>
+   </property>
+  </action>
+  <action name="actionNewEmployee">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/newEmployee.png</normaloff>:/images/newEmployee.png</iconset>
+   </property>
+   <property name="text">
+    <string>新增员工</string>
+   </property>
+  </action>
+  <action name="actionVIP">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/images/VIP_discount.png</normaloff>:/images/VIP_discount.png</iconset>
+   </property>
+   <property name="text">
+    <string>会员优惠</string>
+   </property>
+  </action>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>

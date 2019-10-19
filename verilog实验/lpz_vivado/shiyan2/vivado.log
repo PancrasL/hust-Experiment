@@ -1,0 +1,341 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue May 22 08:10:43 2018
+# Process ID: 4072
+# Log file: D:/lpz/shiyan2/vivado.log
+# Journal file: D:/lpz/shiyan2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/lpz/shiyan2/shiyan2.xpr
+INFO: [Project 1-313] Project file moved from 'D:/shiyan2' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:01:19 . Memory (MB): peak = 663.012 ; gain = 82.941
+close_project
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/lpz/shiyan2/shiyan2.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/lpz/shiyan2/shiyan2.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Tue May 22 08:21:51 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 22 08:21:51 2018...
+create_project shiyan3 D:/lpz/shiyan3 -part xc7a100tcsg324-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2015.2/data/ip'.
+add_files -fileset constrs_1 -norecurse D:/lpz/shiyan2/shiyan2.srcs/constrs_1/imports/Nexys4_Master.xdc
+file mkdir D:/lpz/shiyan3/shiyan3.srcs/sources_1/new
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_4.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_4.v
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_3.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_3.v
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_2.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_2.v
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_6.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_6.v
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_5.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_5.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v
+update_compile_order -fileset sources_1
+import_files -fileset constrs_1 D:/lpz/shiyan2/shiyan2.srcs/constrs_1/imports/Nexys4_Master.xdc
+launch_runs impl_1
+[Tue May 22 08:48:52 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 08:48:52 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 08:50:17 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 08:50:17 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+remove_files {D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_2.v D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_3.v D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_5.v D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_6.v}
+file delete -force D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_2.v D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_3.v D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_5.v D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_6.v
+remove_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_4.v
+file delete -force D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_4.v
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v:1]
+[Tue May 22 08:52:59 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "[". [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v:23]
+[Tue May 22 08:54:05 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue May 22 08:54:42 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 22 08:55:48 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/lpz/shiyan2/.Xil/Vivado-4072-803-005/dcp/divider.xdc]
+Finished Parsing XDC File [D:/lpz/shiyan2/.Xil/Vivado-4072-803-005/dcp/divider.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 959.461 ; gain = 0.039
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 959.461 ; gain = 0.039
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 1142.566 ; gain = 406.914
+close_design
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "[". [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v:23]
+[Tue May 22 09:00:25 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue May 22 09:00:54 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run impl_1
+launch_runs impl_1
+[Tue May 22 09:01:51 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs synth_1
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1.v:1]
+INFO: [HDL 9-2216] Analyzing Verilog file "D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v" into library work [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v:1]
+CRITICAL WARNING: [HDL 9-806] Syntax error near "[". [D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_1_main.v:23]
+[Tue May 22 09:02:20 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+launch_runs impl_1
+[Tue May 22 09:02:53 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 09:05:53 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 09:05:53 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 09:07:48 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 09:07:48 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 09:10:30 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 09:10:30 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 22 09:11:51 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/lpz/shiyan2/.Xil/Vivado-4072-803-005/dcp/shiyan3_1_main.xdc]
+Finished Parsing XDC File [D:/lpz/shiyan2/.Xil/Vivado-4072-803-005/dcp/shiyan3_1_main.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1502.910 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 1502.910 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 09:19:21 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 09:19:21 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 09:20:53 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 09:20:53 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 22 09:22:16 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274531895A
+set_property PROGRAM.FILE {D:/lpz/shiyan3/shiyan3.runs/impl_1/shiyan3_1_main.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/lpz/shiyan3/shiyan3.runs/impl_1/shiyan3_1_main.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+****** Webtalk v2015.2 (64-bit)
+  **** SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+  **** IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+    ** Copyright 1986-2015 Xilinx, Inc. All Rights Reserved.
+
+source D:/lpz/shiyan3/shiyan3.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/lpz/shiyan3/shiyan3.hw/webtalk/usage_statistics_ext_labtool.xml' has been successfully sent to Xilinx on Tue May 22 09:23:46 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2015.2/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Tue May 22 09:23:46 2018...
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_2.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_2.v
+update_compile_order -fileset sources_1
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_3.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_3.v
+update_compile_order -fileset sources_1
+set_property top shiyan3_3 [current_fileset]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 09:48:48 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 09:48:48 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 22 09:50:08 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 09:57:20 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 09:57:20 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 22 09:58:39 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 10:01:03 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 10:01:03 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 22 10:02:21 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2015.2
+  **** Build date : Jun 26 2015-16:56:39
+    ** Copyright 1986-1999, 2001-2015 Xilinx, Inc. All Rights Reserved.
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 1520.453 ; gain = 0.000
+open_hw_target [lindex [get_hw_targets -of_objects [get_hw_servers localhost]] 0]
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210274531895A
+set_property PROGRAM.FILE {D:/lpz/shiyan3/shiyan3.runs/impl_1/shiyan3_3.bit} [lindex [get_hw_devices] 0]
+current_hw_device [lindex [get_hw_devices] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/lpz/shiyan3/shiyan3.runs/impl_1/shiyan3_3.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+reset_run synth_1
+launch_runs impl_1
+[Tue May 22 10:05:02 2018] Launched synth_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/synth_1/runme.log
+[Tue May 22 10:05:02 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream
+[Tue May 22 10:06:27 2018] Launched impl_1...
+Run output will be captured here: D:/lpz/shiyan3/shiyan3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2015.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [D:/lpz/shiyan2/.Xil/Vivado-4072-803-005/dcp/shiyan3_3.xdc]
+Finished Parsing XDC File [D:/lpz/shiyan2/.Xil/Vivado-4072-803-005/dcp/shiyan3_3.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1520.453 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 1520.453 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+close_design
+set_property PROBES.FILE {} [lindex [get_hw_devices] 0]
+set_property PROGRAM.FILE {D:/lpz/shiyan3/shiyan3.runs/impl_1/shiyan3_3.bit} [lindex [get_hw_devices] 0]
+program_hw_devices [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3123] The debug hub core was not detected at User Scan Chain 1 or 3.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active OR
+2. Manually launch hw_server with -e "set xsdb-user-bscan <C_USER_SCAN_CHAIN scan_chain_number>" to detect the debug hub at User Scan Chain of 2 or 4. To determine the user scan chain setting, open the implemented design and use: get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub].
+close_hw
+close [ open D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_4.v w ]
+add_files D:/lpz/shiyan3/shiyan3.srcs/sources_1/new/shiyan3_4.v
+update_compile_order -fileset sources_1

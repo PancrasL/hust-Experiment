@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"auto_caculate_test_time_impl.v" \
+"../../../../../shiyan4.srcs/sources_1/new/auto_caculate_test.v" \
+
+# Do not sort compile order
+nosort

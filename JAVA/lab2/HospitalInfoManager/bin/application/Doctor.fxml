@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="549.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DoctorController">
+   <children>
+      <GridPane layoutY="-1.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <AnchorPane prefHeight="587.0" prefWidth="804.0">
+               <children>
+                  <TabPane layoutY="-2.0" prefHeight="551.0" prefWidth="804.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="挂号列表">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TableView fx:id="registerInfoTable" layoutX="-1.0" layoutY="-2.0" prefHeight="509.0" prefWidth="804.0">
+                                      <columns>
+                                        <TableColumn fx:id="registerID" minWidth="111.0" prefWidth="177.0" text="挂号编号" />
+                                        <TableColumn fx:id="patientName" minWidth="100.0" prefWidth="174.0" text="病人名称" />
+                                          <TableColumn fx:id="registerDate" minWidth="100.0" prefWidth="209.0" text="挂号日期" />
+                                          <TableColumn fx:id="registerType" minWidth="75.0" prefWidth="243.0" text="号种类别" />
+                                      </columns>
+                                    </TableView>
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                      <Tab text="收入列表">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <TableView fx:id="wageInfoTable" layoutX="-1.0" layoutY="40.0" prefHeight="471.0" prefWidth="804.0">
+                                      <columns>
+                                        <TableColumn fx:id="departmentNameCol" prefWidth="153.0" text="科室名称" />
+                                        <TableColumn fx:id="doctorIdCol" prefWidth="110.0" text="医生编号" />
+                                          <TableColumn fx:id="doctorNameCol" prefWidth="126.0" text="医生姓名" />
+                                          <TableColumn fx:id="isExpertCol" prefWidth="105.0" text="医生类别" />
+                                          <TableColumn fx:id="registerPersonCol" prefWidth="155.0" text="挂号人次" />
+                                          <TableColumn fx:id="totalWageCol" prefWidth="154.0" text="收入合计" />
+                                      </columns>
+                                    </TableView>
+                                    <Label layoutX="2.0" layoutY="13.0" prefHeight="20.0" prefWidth="86.0" text="起始日期：" />
+                                    <DatePicker fx:id="selectBeginDate" layoutX="65.0" layoutY="6.0" />
+                                    <Label layoutX="304.0" layoutY="12.0" prefHeight="20.0" prefWidth="86.0" text="终止日期：" />
+                                    <DatePicker fx:id="selectEndDate" layoutX="315.0" layoutY="5.0" />
+                                    <Button layoutX="561.0" layoutY="7.0" mnemonicParsing="false" onAction="#selectDate" prefHeight="20.0" prefWidth="80.0" text="确认" />
+                                 </children>
+                              </AnchorPane>
+                        </content>
+                      </Tab>
+                    </tabs>
+                  </TabPane>
+                  <Button fx:id="exitButton" layoutX="721.0" layoutY="549.0" mnemonicParsing="false" onAction="#exit" text="退出系统" />
+                  <Label fx:id="showTime" layoutX="100.0" layoutY="549.0" prefHeight="30.0" prefWidth="230.0" />
+                  <Label fx:id="showTime1" layoutX="14.0" layoutY="549.0" prefHeight="30.0" prefWidth="86.0" text="登陆日期：" />
+                  <Label fx:id="name" layoutX="330.0" layoutY="554.0" prefHeight="20.0" prefWidth="125.0" />
+               </children>
+            </AnchorPane>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

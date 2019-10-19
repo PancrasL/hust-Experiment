@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 19 14:57:43 2018
+# Process ID: 16344
+# Current directory: E:/shu_zi_luo_ji/shiyan2_1/shiyan2.runs/synth_1
+# Command line: vivado.exe -log pipe3b_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pipe3b_top.tcl
+# Log file: E:/shu_zi_luo_ji/shiyan2_1/shiyan2.runs/synth_1/pipe3b_top.vds
+# Journal file: E:/shu_zi_luo_ji/shiyan2_1/shiyan2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source pipe3b_top.tcl -notrace

@@ -1,0 +1,26 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 2b507caa4d4c4004a074f68160aabed3 --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L simprims_ver -L secureip --snapshot counter_mod_8_test_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.counter_mod_8_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+INFO: [XSIM 43-3451] SDF backannotation process started with SDF file "counter_mod_8_test_time_impl.sdf", for root module "counter_mod_8_test/test".
+INFO: [XSIM 43-3452] SDF backannotation was successful for SDF file "counter_mod_8_test_time_impl.sdf", for root module "counter_mod_8_test/test".
+Time Resolution for simulation is 1ps
+Compiling module simprims_ver.BUFG
+Compiling module simprims_ver.IBUF
+Compiling module simprims_ver.OBUF
+Compiling module simprims_ver.FDRE(INIT=1'b1)
+Compiling module simprims_ver.LUT4
+Compiling module simprims_ver.FDRE_default
+Compiling module simprims_ver.x_lut2_mux4
+Compiling module simprims_ver.LUT2
+Compiling module simprims_ver.x_lut3_mux8
+Compiling module simprims_ver.LUT3
+Compiling module xil_defaultlib.counter
+Compiling module xil_defaultlib.counter_mod_8
+Compiling module xil_defaultlib.counter_mod_8_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot counter_mod_8_test_time_impl

@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun 20 22:10:57 2018
+# Process ID: 11504
+# Current directory: E:/shu_zi_luo_ji/shiyan2_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6892 E:\shu_zi_luo_ji\shiyan2_2\shiyan2_2.xpr
+# Log file: E:/shu_zi_luo_ji/shiyan2_2/vivado.log
+# Journal file: E:/shu_zi_luo_ji/shiyan2_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.xpr
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1
+report_utilization -name utilization_2
+report_utilization -name utilization_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top sequential_detector [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+report_utilization -name utilization_1
+refresh_design
+report_utilization -name utilization_1
+close_design
+close_design
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top comparator_3_bit [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+open_run impl_1
+report_utilization -name utilization_1
+open_run synth_1 -name synth_1
+report_utilization -name utilization_1

@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# Vivado v2015.2 (64-bit)
+# SW Build 1266856 on Fri Jun 26 16:35:25 MDT 2015
+# IP Build 1264090 on Wed Jun 24 14:22:01 MDT 2015
+# Start of session at: Tue May 15 11:34:20 2018
+# Process ID: 5716
+# Log file: D:/shiyan2/shiyan2.runs/synth_1/shiyan2_4.vds
+# Journal file: D:/shiyan2/shiyan2.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source shiyan2_4.tcl -notrace

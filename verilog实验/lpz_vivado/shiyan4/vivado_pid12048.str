@@ -1,0 +1,113 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 12048
+License: Customer
+
+Current time: 	Wed Jun 06 11:43:27 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1536x864
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 46 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/vivado/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/vivado/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	10334
+User home directory: C:/Users/10334
+User working directory: C:/Users/10334/Desktop/我的文件2018年5月28日/verilog/lpz_vivado/shiyan4/shiyan4
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: D:/vivado/Vivado
+HDI_APPROOT: D:/vivado/Vivado/2018.1
+RDI_DATADIR: D:/vivado/Vivado/2018.1/data
+RDI_BINDIR: D:/vivado/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/10334/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/10334/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/10334/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/vivado/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/10334/Desktop/我的文件2018年5月28日/verilog/lpz_vivado/shiyan4/shiyan4/vivado.log
+Vivado journal file location: 	C:/Users/10334/Desktop/我的文件2018年5月28日/verilog/lpz_vivado/shiyan4/shiyan4/vivado.jou
+Engine tmp dir: 	C:/Users/10334/Desktop/我的文件2018年5月28日/verilog/lpz_vivado/shiyan4/shiyan4/.Xil/Vivado-12048-DESKTOP-4FFCO4E
+
+GUI allocated memory:	201 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 545 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// aL (ch): Older Project Version: addNotify
+// [GUI Memory]: 65 MB (+66033kb) [00:00:06]
+// [Engine Memory]: 545 MB (+420481kb) [00:00:06]
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_OPEN_PROJECT_IN_READ_ONLY_MODE, "Open project in read-only mode"); // a (Q, aL)
+selectRadioButton(PAResourceTtoZ.UpgradeProjectDialog_AUTOMATICALLY_UPGRADE_TO_CURRENT, "Automatically upgrade to the current version"); // a (Q, aL)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aL)
+// Opening Vivado Project: C:\Users\10334\Desktop\我的文件2018年5月28日\verilog\lpz_vivado\shiyan4\shiyan4\shiyan4.xpr. Version: Vivado v2015.2 
+// bv (ch):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+dismissDialog("Older Project Version"); // aL (ch)
+// Tcl Message: open_project C:/Users/10334/Desktop/我的文件2018年5月28日/verilog/lpz_vivado/shiyan4/shiyan4/shiyan4.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/10334/Desktop/我的文件2018年5月28日/verilog/lpz_vivado/shiyan4/shiyan4/shiyan4.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/shiyan4' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'shiyan4.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 559 MB. GUI used memory: 34 MB. Current time: 6/6/18 11:43:29 AM CST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 604 MB (+32439kb) [00:00:12]
+// Project name: shiyan4; location: C:/Users/10334/Desktop/我的文件2018年5月28日/verilog/lpz_vivado/shiyan4/shiyan4; part: xc7a100tcsg324-1
+// [Engine Memory]: 638 MB (+4674kb) [00:00:14]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceQtoS.RunGadget_SHOW_ERROR, "35 errors"); // h (Q, ch)
+// Tcl Message: update_compile_order -fileset sources_1 
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g (aQ, ch): FALSE
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, true); // g (aQ, ch): TRUE
+selectCheckBox(PAResourceItoN.MsgView_CRITICAL_WARNINGS, (String) null, false); // g (aQ, ch): FALSE
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shiyan4_1 (shiyan4_1.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shiyan4_1 (shiyan4_1.v), ROM : rom16xN (rom4xn.v)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shiyan4_1 (shiyan4_1.v), ROM : rom16xN (rom4xn.v)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, shiyan4_1 (shiyan4_1.v)]", 1, true); // B (D, ch) - Node
+// [GUI Memory]: 70 MB (+1637kb) [00:00:28]
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis]", 11, true, false, false, false, true, false); // u (O, ch) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_RTL_DESIGN, "New Elaborated Design..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_RTL_DESIGN
+// G (ch): Open Elaborated Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (G)
+// bv (ch):  Open Elaborated Design : addNotify
+// TclEventType: ELABORATE_START
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a100tcsg324-1 Top: shiyan4_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 703 MB. GUI used memory: 40 MB. Current time: 6/6/18 11:43:59 AM CST
+// [Engine Memory]: 710 MB (+41523kb) [00:00:41]

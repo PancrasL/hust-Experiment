@@ -1,0 +1,11 @@
+Exception at PC 0x00007FFD46FA22C2
+Attemped to write at address 0x0000000000000000
+Printing stacktrace...
+
+[0] (iki_malloc+0xc2) [0x00007FFD46FA22C2]
+[1] (iki_malloc+0xc2) [0x00007FFD46FA22C2]
+[2] (iki_spushz+0x527) [0x00007FFD46FA34B7]
+[3] (iki_spushz+0x694) [0x00007FFD46FA3624]
+[4] (iki_vlog_schedule_transaction_non_blocking_delay_signal+0x37) [0x00007FFD46EE97B7]
+[5]  [0x0000000000402CDB]
+Done

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="455.0" prefWidth="617.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.PatientController">
+   <children>
+      <GridPane layoutX="123.0" layoutY="1.0" prefHeight="455.0" prefWidth="617.0" AnchorPane.rightAnchor="0.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="30.0" minWidth="20.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="150.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="50.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="15.0" prefWidth="150.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="30.0" minWidth="20.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="20.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="70.0" minHeight="10.0" prefHeight="70.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="55.0" minHeight="0.0" prefHeight="55.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="55.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="55.0" minHeight="9.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="200.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="93.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Label text="科室名称" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Label text="号种类别" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Label text="交款金额" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+            <Label text="找零金额" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+            <Label text="医生姓名" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Label text="号种名称" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Label text="应缴金额" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
+            <Label text="挂号号码" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="5" />
+            <TextField fx:id="pay" layoutX="165.0" layoutY="193.0" onMouseExited="#getCharge" text="20" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <TextField fx:id="charge" editable="false" layoutX="165.0" layoutY="271.0" text="0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+            <TextField fx:id="shouldPay" editable="false" layoutX="165.0" layoutY="114.0" text="20" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+            <TextField fx:id="registerNumber" layoutX="473.0" layoutY="114.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+            <Label fx:id="title" text="门诊挂号" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+               <font>
+                  <Font size="35.0" />
+               </font></Label>
+            <HBox prefHeight="100.0" prefWidth="200.0" GridPane.columnIndex="1" GridPane.columnSpan="5" GridPane.rowIndex="6">
+               <children>
+                  <BorderPane prefHeight="91.0" prefWidth="557.0">
+                     <left>
+                        <Button fx:id="confirmButton" mnemonicParsing="false" onAction="#confirm" prefHeight="32.0" prefWidth="110.0" text="确定" BorderPane.alignment="CENTER" />
+                     </left>
+                     <center>
+                        <Button fx:id="clearButton" mnemonicParsing="false" onAction="#clear" prefHeight="34.0" prefWidth="119.0" text="清除" BorderPane.alignment="CENTER" />
+                     </center>
+                     <right>
+                        <Button fx:id="exitButton" mnemonicParsing="false" onAction="#exit" prefHeight="34.0" prefWidth="110.0" text="退出" BorderPane.alignment="CENTER" />
+                     </right>
+                  </BorderPane>
+               </children></HBox>
+            <ChoiceBox fx:id="departmentName" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <ChoiceBox fx:id="registerType" onDragDone="#showRegisterType" prefWidth="150.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <ChoiceBox fx:id="doctorName" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+            <ChoiceBox fx:id="registerName" onDragDone="#showRegisterName" prefWidth="150.0" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+            <Label fx:id="infomation" prefHeight="20.0" prefWidth="258.0" GridPane.columnIndex="2" GridPane.columnSpan="3" GridPane.halignment="CENTER" GridPane.rowIndex="7" />
+            <Button mnemonicParsing="false" onAction="#showDoctorName" text="..." GridPane.columnIndex="6" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#showRegisterType" text="..." GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#showRegisterName" text="..." GridPane.columnIndex="6" GridPane.rowIndex="3" />
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

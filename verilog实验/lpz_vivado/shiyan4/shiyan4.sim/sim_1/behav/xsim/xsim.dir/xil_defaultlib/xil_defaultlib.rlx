@@ -1,0 +1,14 @@
+0.6
+2018.1
+Apr  4 2018
+19:30:32
+E:/shiyan4/shiyan4.sim/sim_1/behav/xsim/glbl.v,1522801934,verilog,,,,glbl,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v,1528798316,verilog,,,,auto_caculate_test,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/auto_caculation.v,1528783494,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v,,auto_caculation,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/n_adder.v,1528783177,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v,,adder,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/n_compare.v,1528783174,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v,,compare,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/n_mux.v,1528783178,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/register.v,,mux,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/register.v,1528780613,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v,,register,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/rom4xn.v,1528798201,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v,,romN,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_1.v,1528783905,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v,,M1,,,,,,,,
+E:/shiyan4/shiyan4.srcs/sources_1/new/shiyan4_2.v,1528783459,verilog,,E:/shiyan4/shiyan4.srcs/sources_1/new/auto_caculate_test.v,,FSM,,,,,,,,

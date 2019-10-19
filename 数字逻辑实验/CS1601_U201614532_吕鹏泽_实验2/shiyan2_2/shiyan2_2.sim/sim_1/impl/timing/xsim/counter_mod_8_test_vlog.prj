@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"counter_mod_8_test_time_impl.v" \
+"../../../../../shiyan2_2.srcs/sim_1/new/counter_mod_8_test.v" \
+
+# Do not sort compile order
+nosort

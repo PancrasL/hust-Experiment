@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.sim/sim_1/impl/timing/xsim/counter_mod_8_test_time_impl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-311] analyzing module counter_mod_8
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/shu_zi_luo_ji/shiyan2_2/shiyan2_2.srcs/sim_1/new/counter_mod_8_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter_mod_8_test

@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"pipe3b_test_time_impl.v" \
+"../../../../../shiyan2.srcs/sim_1/imports/new/pipe3b_test.v" \
+
+# Do not sort compile order
+nosort

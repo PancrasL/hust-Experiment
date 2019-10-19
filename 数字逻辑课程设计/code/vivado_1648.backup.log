@@ -1,0 +1,120 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Sep 10 10:13:05 2018
+# Process ID: 1648
+# Current directory: E:/keshe
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7752 E:\keshe\keshe.xpr
+# Log file: E:/keshe/vivado.log
+# Journal file: E:/keshe\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project E:/keshe/keshe.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'E:/keshe/keshe.srcs/sim_1/new/cur_money_test.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/vivado/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 879.910 ; gain = 122.316
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/keshe/keshe.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'top_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/keshe/keshe.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj top_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/FSM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FSM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/counter.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module counter
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/cur_money.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module cur_money
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/decoder3_8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decoder3_8
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/display.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module display
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/divider.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module divider
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/new/fangdou.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module fangdou
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/led_inc.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module led_inc
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/pattern.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pattern
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/seven_transfer.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seven_transfer
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sources_1/imports/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/keshe/keshe.srcs/sim_1/imports/new/top_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_test
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/keshe/keshe.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: D:/vivado/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 3ca194a17ef74525b9698c007135eadc --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot top_test_behav xil_defaultlib.top_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.fangdou
+Compiling module xil_defaultlib.FSM
+Compiling module xil_defaultlib.cur_money
+Compiling module xil_defaultlib.divider(N=50000)
+Compiling module xil_defaultlib.counter(N=4)
+Compiling module xil_defaultlib.counter(N=2)
+Compiling module xil_defaultlib.decoder3_8
+Compiling module xil_defaultlib.pattern
+Compiling module xil_defaultlib.seven_transfer
+Compiling module xil_defaultlib.display
+Compiling module xil_defaultlib.divider(N=100000000)
+Compiling module xil_defaultlib.led_inc
+Compiling module xil_defaultlib.led_inc(SECONDS=2)
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.top_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_test_behav
+
+****** Webtalk v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source E:/keshe/keshe.sim/sim_1/behav/xsim/xsim.dir/top_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'E:/keshe/keshe.sim/sim_1/behav/xsim/xsim.dir/top_test_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Sep 10 10:13:47 2018. For additional details about this file, please refer to the WebTalk help file at D:/vivado/Vivado/2018.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Mon Sep 10 10:13:47 2018...
+run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 924.012 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'E:/keshe/keshe.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "top_test_behav -key {Behavioral:sim_1:Functional:top_test} -tclbatch {top_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source top_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'top_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 946.293 ; gain = 22.281
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 953.727 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Sep 10 10:49:49 2018...
